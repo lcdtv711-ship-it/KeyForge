@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ZYRON</string>
+    <string name="ime_name">ZYRON Keyboard</string>
+    <string name="ime_settings">ZYRON Keyboard Settings</string>
+</resources>

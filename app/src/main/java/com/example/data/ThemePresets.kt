@@ -1,0 +1,257 @@
+package com.example.data
+
+import com.example.R
+
+object ThemePresets {
+
+    val allThemes: List<KeyboardTheme> = listOf(
+        KeyboardTheme(
+            id = "anime_cyber",
+            name = "Anime Cyber (ZYRON)",
+            category = "Anime",
+            isDark = true,
+            bgDrawableRes = R.drawable.bg_anime_cyber,
+            bgSolidColor = 0xFF080B18,
+            bgGradientColors = listOf(0xFF0A0E24, 0xFF121B3D),
+            accentColor = 0xFF00E5FF,
+            primaryTextColor = 0xFFF1F5F9,
+            secondaryTextColor = 0xFF38BDF8,
+            keyStyle = KeyStyleConfig(
+                keyShape = KeyShapeType.ROUNDED_RECT,
+                cornerRadiusDp = 10f,
+                keyBgColor = 0xAA0E1630,
+                keyBgSecondaryColor = 0xCC1A2750,
+                keyBorderColor = 0x9900E5FF,
+                borderWidthDp = 1.2f,
+                glowColor = 0x8800B0FF,
+                glowRadiusDp = 6f,
+                labelColor = 0xFFFFFFFF,
+                labelSecondaryColor = 0xFF38BDF8
+            ),
+            toolbarBgColor = 0xEE090D1E,
+            suggestionBgColor = 0xEE0E142B,
+            bgOpacity = 0.88f,
+            glowIntensity = 0.85f
+        ),
+        KeyboardTheme(
+            id = "neon_red",
+            name = "Neon Red (Crimson)",
+            category = "Cyberpunk",
+            isDark = true,
+            bgSolidColor = 0xFF14070A,
+            bgGradientColors = listOf(0xFF1F090E, 0xFF2B0A11),
+            accentColor = 0xFFFF1744,
+            primaryTextColor = 0xFFFFF1F2,
+            secondaryTextColor = 0xFFFDA4AF,
+            keyStyle = KeyStyleConfig(
+                keyShape = KeyShapeType.ROUNDED_RECT,
+                cornerRadiusDp = 8f,
+                keyBgColor = 0xDD240C12,
+                keyBgSecondaryColor = 0xEE38111B,
+                keyBorderColor = 0xFFFF1744,
+                borderWidthDp = 1.2f,
+                glowColor = 0x99FF1744,
+                glowRadiusDp = 8f,
+                labelColor = 0xFFFFFFFF,
+                labelSecondaryColor = 0xFFFF6B81
+            ),
+            toolbarBgColor = 0xEE16060A,
+            suggestionBgColor = 0xEE220B11,
+            bgOpacity = 0.92f,
+            glowIntensity = 0.80f
+        ),
+        KeyboardTheme(
+            id = "sky_dream",
+            name = "Sky Dream",
+            category = "Neon RGB",
+            isDark = true,
+            bgSolidColor = 0xFF061325,
+            bgGradientColors = listOf(0xFF0A1E38, 0xFF0C2B52),
+            accentColor = 0xFF38BDF8,
+            primaryTextColor = 0xFFF0F9FF,
+            secondaryTextColor = 0xFF7DD3FC,
+            keyStyle = KeyStyleConfig(
+                keyShape = KeyShapeType.ROUNDED_RECT,
+                cornerRadiusDp = 10f,
+                keyBgColor = 0xDD0C2546,
+                keyBgSecondaryColor = 0xEE123663,
+                keyBorderColor = 0xFF38BDF8,
+                borderWidthDp = 1.2f,
+                glowColor = 0x9938BDF8,
+                glowRadiusDp = 6f,
+                labelColor = 0xFFFFFFFF,
+                labelSecondaryColor = 0xFF7DD3FC
+            ),
+            toolbarBgColor = 0xEE07162C,
+            suggestionBgColor = 0xEE0B2244,
+            bgOpacity = 0.90f,
+            glowIntensity = 0.75f
+        ),
+        KeyboardTheme(
+            id = "forest_green",
+            name = "Forest Green",
+            category = "Nature",
+            isDark = true,
+            bgSolidColor = 0xFF06170E,
+            bgGradientColors = listOf(0xFF092114, 0xFF0E331F),
+            accentColor = 0xFF10B981,
+            primaryTextColor = 0xFFECFDF5,
+            secondaryTextColor = 0xFF6EE7B7,
+            keyStyle = KeyStyleConfig(
+                keyShape = KeyShapeType.ROUNDED_RECT,
+                cornerRadiusDp = 8f,
+                keyBgColor = 0xDD0D2A1A,
+                keyBgSecondaryColor = 0xEE143D27,
+                keyBorderColor = 0xFF10B981,
+                borderWidthDp = 1.2f,
+                glowColor = 0x8810B981,
+                glowRadiusDp = 6f,
+                labelColor = 0xFFFFFFFF,
+                labelSecondaryColor = 0xFF6EE7B7
+            ),
+            toolbarBgColor = 0xEE071A10,
+            suggestionBgColor = 0xEE0B2618,
+            bgOpacity = 0.90f,
+            glowIntensity = 0.70f
+        ),
+        KeyboardTheme(
+            id = "purple_night",
+            name = "Purple Night",
+            category = "Dark Premium",
+            isDark = true,
+            bgSolidColor = 0xFF130924,
+            bgGradientColors = listOf(0xFF1B0C33, 0xFF27104B),
+            accentColor = 0xFFA855F7,
+            primaryTextColor = 0xFFFAF5FF,
+            secondaryTextColor = 0xFFD8B4FE,
+            keyStyle = KeyStyleConfig(
+                keyShape = KeyShapeType.ROUNDED_RECT,
+                cornerRadiusDp = 10f,
+                keyBgColor = 0xDD210F3E,
+                keyBgSecondaryColor = 0xEE30155B,
+                keyBorderColor = 0xFFA855F7,
+                borderWidthDp = 1.2f,
+                glowColor = 0x99A855F7,
+                glowRadiusDp = 7f,
+                labelColor = 0xFFFFFFFF,
+                labelSecondaryColor = 0xFFD8B4FE
+            ),
+            toolbarBgColor = 0xEE140927,
+            suggestionBgColor = 0xEE1F0E3D,
+            bgOpacity = 0.92f,
+            glowIntensity = 0.80f
+        ),
+        KeyboardTheme(
+            id = "golden",
+            name = "Golden Sovereign",
+            category = "Dark Premium",
+            isDark = true,
+            bgSolidColor = 0xFF161208,
+            bgGradientColors = listOf(0xFF241C0A, 0xFF36290C),
+            accentColor = 0xFFF59E0B,
+            primaryTextColor = 0xFFFFFBEB,
+            secondaryTextColor = 0xFFFDE68A,
+            keyStyle = KeyStyleConfig(
+                keyShape = KeyShapeType.ROUNDED_RECT,
+                cornerRadiusDp = 8f,
+                keyBgColor = 0xDD2E2209,
+                keyBgSecondaryColor = 0xEE43310B,
+                keyBorderColor = 0xFFF59E0B,
+                borderWidthDp = 1.2f,
+                glowColor = 0x99F59E0B,
+                glowRadiusDp = 7f,
+                labelColor = 0xFFFFFBEB,
+                labelSecondaryColor = 0xFFFDE68A
+            ),
+            toolbarBgColor = 0xEE181307,
+            suggestionBgColor = 0xEE261D09,
+            bgOpacity = 0.92f,
+            glowIntensity = 0.75f
+        ),
+        KeyboardTheme(
+            id = "minimal_dark",
+            name = "Minimal Dark OLED",
+            category = "Minimalist",
+            isDark = true,
+            bgSolidColor = 0xFF000000,
+            bgGradientColors = listOf(0xFF050505, 0xFF101010),
+            accentColor = 0xFF64748B,
+            primaryTextColor = 0xFFF8FAFC,
+            secondaryTextColor = 0xFF94A3B8,
+            keyStyle = KeyStyleConfig(
+                keyShape = KeyShapeType.ROUNDED_RECT,
+                cornerRadiusDp = 6f,
+                keyBgColor = 0xFF18181B,
+                keyBgSecondaryColor = 0xFF27272A,
+                keyBorderColor = 0xFF3F3F46,
+                borderWidthDp = 1f,
+                glowColor = 0x00000000,
+                glowRadiusDp = 0f,
+                labelColor = 0xFFF8FAFC,
+                labelSecondaryColor = 0xFF71717A
+            ),
+            toolbarBgColor = 0xFF0D0D0E,
+            suggestionBgColor = 0xFF141416,
+            bgOpacity = 1.0f,
+            glowIntensity = 0.0f
+        ),
+        KeyboardTheme(
+            id = "light_mode",
+            name = "Clean Light Mode",
+            category = "Minimalist",
+            isDark = false,
+            bgSolidColor = 0xFFF1F5F9,
+            bgGradientColors = listOf(0xFFF8FAFC, 0xFFE2E8F0),
+            accentColor = 0xFF2563EB,
+            primaryTextColor = 0xFF0F172A,
+            secondaryTextColor = 0xFF475569,
+            keyStyle = KeyStyleConfig(
+                keyShape = KeyShapeType.ROUNDED_RECT,
+                cornerRadiusDp = 8f,
+                keyBgColor = 0xFFFFFFFF,
+                keyBgSecondaryColor = 0xFFF1F5F9,
+                keyBorderColor = 0xFFCBD5E1,
+                borderWidthDp = 1f,
+                glowColor = 0x332563EB,
+                glowRadiusDp = 3f,
+                labelColor = 0xFF0F172A,
+                labelSecondaryColor = 0xFF64748B
+            ),
+            toolbarBgColor = 0xFFE2E8F0,
+            suggestionBgColor = 0xFFEBEFFA,
+            bgOpacity = 1.0f,
+            glowIntensity = 0.3f
+        ),
+        KeyboardTheme(
+            id = "galaxy",
+            name = "Galaxy Nebula",
+            category = "Space",
+            isDark = true,
+            bgSolidColor = 0xFF08061B,
+            bgGradientColors = listOf(0xFF100938, 0xFF1F0E4D),
+            accentColor = 0xFF818CF8,
+            primaryTextColor = 0xFFEEF2FF,
+            secondaryTextColor = 0xFFC7D2FE,
+            keyStyle = KeyStyleConfig(
+                keyShape = KeyShapeType.SQUIRCLE,
+                cornerRadiusDp = 10f,
+                keyBgColor = 0xDD1B1242,
+                keyBgSecondaryColor = 0xEE2A1C66,
+                keyBorderColor = 0xFF818CF8,
+                borderWidthDp = 1.2f,
+                glowColor = 0x99818CF8,
+                glowRadiusDp = 7f,
+                labelColor = 0xFFFFFFFF,
+                labelSecondaryColor = 0xFFA5B4FC
+            ),
+            toolbarBgColor = 0xEE0B0824,
+            suggestionBgColor = 0xEE160F3D,
+            bgOpacity = 0.90f,
+            glowIntensity = 0.80f
+        )
+    )
+
+    fun getThemeById(id: String): KeyboardTheme {
+        return allThemes.find { it.id == id } ?: allThemes[0]
+    }
+}

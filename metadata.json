@@ -1,0 +1,6 @@
+{
+  "name": "ZYRON Keyboard Studio",
+  "description": "Ultimate custom Android keyboard with Character Surgery, Merge Lab, Touchpad Handwriting, Key Designer, Emojis, and Themes.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
